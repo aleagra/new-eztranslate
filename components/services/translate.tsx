@@ -24,7 +24,7 @@ export async function translateText(text: string, target: string) {
     return response?.data?.data?.translations?.translatedText || "";
   } catch (error: any) {
     if (error.response?.status === 429) {
-      return "Se alcanzó el límite de peticiones. ";
+      return "Se alcanzó el límite de peticiones.";
     }
 
     console.error(error);
