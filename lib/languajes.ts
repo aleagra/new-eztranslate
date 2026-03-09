@@ -1,0 +1,25 @@
+export const languages = [
+  { code: "auto", name: "Detectar idioma", flag: "AUTO" },
+
+  { code: "af", name: "Afrikáans", flag: "AF" },
+  { code: "ar", name: "Arabe", flag: "AR" },
+  { code: "bg", name: "Bulgaro", flag: "BG" },
+  { code: "ca", name: "Catalan", flag: "CA" },
+  { code: "cy", name: "Gales", flag: "CY" },
+  { code: "da", name: "Danes", flag: "DA" },
+  { code: "de", name: "Aleman", flag: "DE" },
+  { code: "el", name: "Griego", flag: "EL" },
+  { code: "en", name: "Ingles", flag: "EN" },
+  { code: "es", name: "Español", flag: "ES" },
+
+  { code: "fa", name: "Persa", flag: "FA" },
+  { code: "fr", name: "Frances", flag: "FR" },
+  { code: "he", name: "Hebreo", flag: "HE" },
+  { code: "hi", name: "Hindi", flag: "HI" },
+  { code: "hr", name: "Croata", flag: "HR" },
+  { code: "hu", name: "Hungaro", flag: "HU" },
+  { code: "it", name: "Italiano", flag: "IT" },
+  { code: "ja", name: "Japones", flag: "JA" },
+  { code: "ko", name: "Koreano", flag: "KO" },
+  { code: "th", name: "Tailandés", flag: "TH" },
+];
