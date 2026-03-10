@@ -68,7 +68,7 @@ export function TargetPanel({
         </div>
       </div>
 
-      <div className="relative flex-1 min-h-[240px] p-4">
+      <div className="relative flex-1 min-h-[240px] py-4 pl-4 pr-10 pb-8">
         {isTranslating ? (
           <div className="flex items-center gap-2 text-muted-foreground">
             <span className="w-4 h-4 border-2 border-muted-foreground/30 border-t-muted-foreground rounded-full animate-spin" />
@@ -77,7 +77,7 @@ export function TargetPanel({
         ) : (
           <div
             className={cn(
-              "text-[15px] leading-relaxed",
+              "text-[15px] leading-relaxed whitespace-pre-wrap",
               translatedText ? "text-foreground" : "text-muted-foreground/40",
             )}
           >

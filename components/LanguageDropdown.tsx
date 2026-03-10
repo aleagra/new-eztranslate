@@ -107,7 +107,7 @@ export default function LanguageDropdown({
                     setOpen(false);
                   }}
                   className={cn(
-                    "w-full flex items-center gap-3 px-3 py-2 text-sm",
+                    "w-full flex items-center gap-3 px-3 py-2 text-sm cursor-pointer",
                     value === lang.code
                       ? "bg-secondary text-foreground"
                       : "text-muted-foreground hover:bg-secondary/50",

@@ -37,7 +37,7 @@ export function Translator() {
 
     const timer = setTimeout(() => {
       handleTranslate();
-    }, 500);
+    }, 250);
 
     return () => clearTimeout(timer);
   }, [sourceText, handleTranslate]);
