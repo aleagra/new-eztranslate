@@ -1,7 +1,7 @@
 export async function translateText(text: string, target: string) {
   if (!text || text.trim().length === 0) return "";
 
-  const url = process.env.REACT_APP_TRANSLATE!;
+  const url = process.env.NEXT_PUBLIC_TRANSLATE!;
   const body = { q: text, target };
 
   try {
@@ -9,7 +9,7 @@ export async function translateText(text: string, target: string) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "X-RapidAPI-Key": process.env.REACT_APP_KEY!,
+        "X-RapidAPI-Key": process.env.NEXT_PUBLIC_KEY!,
         "X-RapidAPI-Host": "deep-translate1.p.rapidapi.com",
       },
       body: JSON.stringify(body),
